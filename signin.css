@@ -1,0 +1,150 @@
+body {
+    margin: 0px;
+    font-family: "SoDo Sans SemiBold", Helvetica Neue, Helvetica, Arial,
+        sans-serif;
+}
+.navbar-container {
+    box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.147);
+    -webkit-box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.204);
+    -moz-box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.099);
+}
+.navbar {
+    max-width: 1560px;
+    padding: 20px;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.navbar-left svg {
+    width: 50px;
+    margin-right: 20px;
+}
+
+.navbar-left div {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+
+.navbar-left,
+.navbar-right {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-left > *,
+.navbar-right > * {
+    margin: 10px;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #008000;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #006400;
+}
+
+.forgot {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.forgot a {
+    color: #008000;
+    text-decoration: none;
+}
+
+.input-box-username {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 20px;
+    outline: none;
+}
+
+.input-box-username::placeholder {
+    color: #0000007f; /* Change this color to match the text color inside the box */
+    font-size: 20px;
+}
+
+.input-box-pass {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 20px;
+    outline: none;
+}
+
+.input-box-pass::placeholder {
+    color: #0000007f; /* Change this color to match the text color inside the box */
+    font-size: 20px;
+}
+.logo {
+    margin-left: -60px;
+}
+
+.button {
+    background-color: #006241;
+    border: 1px solid rgb(209,213,219);
+    border-radius: 500px;
+    box-sizing: border-box;
+    color: #ffffff;
+    font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: .875rem;
+    font-weight: 600;
+    line-height: 1.25rem;
+    padding: .90rem 1rem;
+    text-align: center;
+    text-decoration: none #D1D5DB solid;
+    text-decoration-thickness: auto;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin-left: 220px;
+    margin-top: 50px;
+}
